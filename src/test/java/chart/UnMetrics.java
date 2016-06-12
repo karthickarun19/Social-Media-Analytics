@@ -48,7 +48,7 @@ public class UnMetrics {
 	    	 
 	     loginPage page= PageFactory.initElements(driver, loginPage.class); 
 
-	     homePage hp=page.doLogIn(ed.decodeUsername("c2FydW5fa2FydGhpY2tAeWFob28uY28uaW4="), ed.decodePassword("V2VsY29tZTEyMw=="));
+	     homePage hp=page.doLogIn(ed.decodeUsername("c2FydW5fa2FydGhpY2tAe="), ed.decodePassword("V2Vs"));
 	     followingPage fp=hp.clickFollowing();
 	     fp.clickTopic();
 	      WebElement element = driver.findElement(By.cssSelector("#highcharts-0.highcharts-container > svg > g.highcharts-tracker > g > rect:nth-child(1)"));
